@@ -16,83 +16,48 @@ public class Rainbow {
     public static final String SEMISEABLUE = "сине-";
     public static final String SEMIVIOLET = "фиолетово-";
 
-    public static void showColour(String colourCode) {
-        String colourFirst;
-        String colourSecond;
+    public static String showColour(String colourCode) {
+        String colourFirst = "";
+        String colourSecond = "";
         String colourFinal;
-        Character colourPart;
+        char colourPart;
         int length;
 
-        colourFirst = "";
-        colourSecond = "";
         length = colourCode.length();
         colourPart = colourCode.charAt(0);
+
         switch (colourPart) {
             case '1':
-                if (length == 1) {
-                    colourFirst = RED;
-                    }
-//                break;
-                if (length == 2) {
-                    colourFirst = SEMIRED;
-                }
+                if (length == 1) {colourFirst = RED;}
+                if (length == 2) {colourFirst = SEMIRED;}
                 break;
             case '2':
-                if (length == 1) {
-                    colourFirst = ORANGE;
-                }
-//                break;
-                if (length == 2) {
-                    colourFirst = SEMIORANGE;
-                }
+                if (length == 1) {colourFirst = ORANGE;}
+                if (length == 2) {colourFirst = SEMIORANGE;}
                 break;
             case '3':
-                if (length == 1) {
-                    colourFirst = YELLOW;
-                }
-//                break;
-                if (length == 2) {
-                    colourFirst = SEMIYELLOW;
-                }
+                if (length == 1) {colourFirst = YELLOW;}
+                if (length == 2) {colourFirst = SEMIYELLOW;}
                 break;
             case '4':
-                if (length == 1) {
-                    colourFirst = GREEN;
-                }
-//                break;
-                if (length == 2) {
-                    colourFirst = SEMIGREEN;
-                }
+                if (length == 1) {colourFirst = GREEN;}
+                if (length == 2) {colourFirst = SEMIGREEN;}
                 break;
             case '5':
-                if (length == 1) {
-                    colourFirst = SKYBLUE;
-                }
-//                break;
-                if (length == 2) {
-                    colourFirst = SEMISKYBLUE;
-                }
+                if (length == 1) {colourFirst = SKYBLUE;}
+                if (length == 2) {colourFirst = SEMISKYBLUE;}
                 break;
             case '6':
-                if (length == 1) {
-                    colourFirst = SEABLUE;
-                }
-//                break;
-                if (length == 2) {
-                    colourFirst = SEMISEABLUE;
-                }
+                if (length == 1) {colourFirst = SEABLUE;}
+                if (length == 2) {colourFirst = SEMISEABLUE;}
                 break;
             case '7':
-                if (length == 1) {
-                    colourFirst = VIOLET;
-                }
-//                break;
-                if (length == 2) {
-                    colourFirst = SEMIVIOLET;
-                }
+                if (length == 1) {colourFirst = VIOLET;}
+                if (length == 2) {colourFirst = SEMIVIOLET;}
                 break;
             default:
-                System.out.println("такой цвет не предусмотрен");
+                colourFinal = "такой цвет не предусмотрен";
+//                System.out.println("такой цвет не предусмотрен");
         }
         if (length == 1) {
         colourFinal = colourFirst;
@@ -123,10 +88,9 @@ public class Rainbow {
                 default:
                     System.out.println("такой цвет не предусмотрен");
             }
-        }
             colourFinal = colourFirst + colourSecond;
-        System.out.println(colourFinal);
-
+        }
+//        System.out.println(colourFinal);
+        return colourFinal;
     }
-
 }
