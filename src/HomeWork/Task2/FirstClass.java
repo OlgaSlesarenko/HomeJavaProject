@@ -1,4 +1,4 @@
-package HomeWork.Lesson2;
+package HomeWork.Task2;
 
 public class FirstClass {
 
