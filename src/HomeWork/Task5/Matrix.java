@@ -5,8 +5,6 @@ import java.util.Random;
 
 public class Matrix {
 
-    //1.
-
     String[][] firstArray = new String[10][10];
 
     public String getString() {
@@ -30,7 +28,6 @@ public class Matrix {
         double randomDouble = start + (random * (end - start));
         String formattedDouble = new DecimalFormat("#0.00000").format(randomDouble);
         return formattedDouble;
-        //    return String.valueOf(randomDouble);
     }
 
     public String[][] getFirstArray() {
@@ -60,7 +57,6 @@ public class Matrix {
         }
     }
 
-    //2.
     String[] secondArray = new String[20];
 
     public String[] getSecondArray() {
