@@ -86,7 +86,7 @@ public class Matrix {
 
     }
 
-    public Boolean compareArrayDiagonals() {
+    public boolean compareArrayDiagonals() {
         int j = 0;
         int k = 9;
         boolean compareResult = true;
