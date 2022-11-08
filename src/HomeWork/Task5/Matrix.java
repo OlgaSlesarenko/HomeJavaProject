@@ -5,7 +5,7 @@ import java.util.Random;
 
 public class Matrix {
 
-    String[][] firstArray = new String[10][10];
+    public String[][] firstArray = new String[10][10];
 
     public String getString() {
 
