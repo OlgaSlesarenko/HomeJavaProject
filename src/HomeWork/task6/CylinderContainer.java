@@ -4,7 +4,6 @@ public class CylinderContainer extends Container {
 
     public CylinderContainer(int contSize, int density) {
         super(contSize, density);
-        contSize = contSize;
     }
 
     public int getWeight() {
@@ -17,5 +16,4 @@ public class CylinderContainer extends Container {
         }
         return (int)volumeCylinder * density;
     }
-
 }

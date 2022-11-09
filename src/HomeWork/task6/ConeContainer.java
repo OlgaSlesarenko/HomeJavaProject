@@ -4,7 +4,6 @@ public class ConeContainer extends Container {
 
     public ConeContainer(int contSize, int density) {
         super(contSize, density);
-//        contSize = contSize;
     }
 
     public int getWeight() {
@@ -17,5 +16,4 @@ public class ConeContainer extends Container {
         }
         return (int)volumeCone * density;
     }
-
 }

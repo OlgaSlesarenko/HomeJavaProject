@@ -25,49 +25,4 @@ public abstract class Container {
         int containerHeight = i + 1;
         return containerHeight;
     }
-
-
-
-
-
-
-
-
-
-//    public int getSmallConeVolume() {
-//        int baseRadiusSmallCone = 10;
-//        double volumeSmallCone = 3.14*Math.sqrt(baseRadiusSmallCone)*getContainerHeight()/3;
-//        return (int)volumeSmallCone;
-//    }
-//
-//    public int getBigConeVolume() {
-//        int baseRadiusBigCone = 20;
-//        double volumeBigCone = 3.14*Math.sqrt(baseRadiusBigCone)*getContainerHeight()/3;
-//        return (int)volumeBigCone;
-//    }
-//
-//    public int getSmallCylinderVolume() {
-//        int baseRadiusSmallCylinder = 10;
-//        double volumeSmallCylinder = 3.14*Math.sqrt(baseRadiusSmallCylinder)*getContainerHeight();
-//        return (int)volumeSmallCylinder;
-//    }
-//
-//    public int getBigCylinderVolume() {
-//        int baseRadiusBigCylinder = 20;
-//        double volumeBigCylinder = 3.14*Math.sqrt(baseRadiusBigCylinder)*getContainerHeight();
-//        return (int)volumeBigCylinder;
-//    }
-//
-//    public int getSmallSquareVolume() {
-//        int diagonalSmallSquare = 10;
-//        double volumeSmallSquare = Math.sqrt(diagonalSmallSquare)/2*getContainerHeight();
-//        return (int)volumeSmallSquare;
-//    }
-//
-//    public int getBigSquareVolume() {
-//        int diagonalBigSquare = 20;
-//        double volumeBigSquare = Math.sqrt(diagonalBigSquare)/2*getContainerHeight();
-//        return (int)volumeBigSquare;
-//    }
-
 }

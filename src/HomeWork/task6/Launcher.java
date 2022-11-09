@@ -14,7 +14,6 @@ public class Launcher {
             System.out.println("Создаем корабль. Введите имя:");
             String shipName = scan.next();
 
-//            scan = new Scanner(System.in);
             System.out.println("Введите размер (1 - малый, 2 - большой):");
             String shipSize = scan.next();
             int intShipSize = Integer.parseInt(shipSize);
@@ -28,7 +27,6 @@ public class Launcher {
 
             System.out.println(result);
 
-//            scan = new Scanner(System.in);
             System.out.println("y - создать еще корабль, n - перейти к загрузке кораблей:");
             String firstDesidion = scan.next();
             if (firstDesidion.equals("n")) {
@@ -40,7 +38,6 @@ public class Launcher {
         int i = 0;
 
         while (i < shipCounter) {
-//            scan = new Scanner(System.in);
             System.out.println("Загружаем корабль у " + (i + 1) + " причала. Введите размер контейнера (1 - малый, 2 - большой)");
             String contSize = scan.next();
 
@@ -73,7 +70,5 @@ public class Launcher {
         } else {
             System.exit(0);
         }
-
     }
-
 }

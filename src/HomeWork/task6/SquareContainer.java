@@ -4,7 +4,6 @@ public class SquareContainer extends Container {
 
     public SquareContainer(int contSize, int density) {
         super(contSize, density);
-        contSize = contSize;
     }
 
     public int getWeight() {
