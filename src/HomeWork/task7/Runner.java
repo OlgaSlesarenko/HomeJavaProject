@@ -5,6 +5,5 @@ public class Runner {
     RobotAssembler robotAssembler = new RobotAssembler();
     robotAssembler.assembleFullRobot();
     robotAssembler.showRobots();
-
     }
 }
